@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.iphoenixdemo.MainActivity" >
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#cccccc" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#eeeeee" >
+    	<TextView
+    	    android:id="@+id/VideoScan"
+    	    android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+    	    android:text="@string/videoscan"
+    	    android:gravity="center"
+    	    android:layout_gravity="center" />
+    	<TextView
+    	    android:id="@+id/VideoRecord"
+    	    android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+    	    android:text="@string/videorecord"
+    	    android:gravity="center"
+    	    android:layout_gravity="center" />
+    	<TextView
+    	    android:id="@+id/Personal"
+    	    android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+    	    android:text="@string/personal"
+    	    android:gravity="center"
+    	    android:layout_gravity="center" />
+    </LinearLayout>
+</LinearLayout>

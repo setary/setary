@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IPhoenixDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="videoscan">视频浏览</string>
+    <string name="videorecord">回看录像</string>
+    <string name="personal">个人中心</string>
+    <string name="devicelist">设备列表</string>
+    
+    <string name="SelectAll">全部选择</string>
+    <string name="StartPreview">开始预览</string>
+    <string name="CancelSelect">取消选择</string>
+    
+    <string name="UserName">用户名</string>
+
+</resources>
